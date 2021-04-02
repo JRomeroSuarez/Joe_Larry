@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.joelerry">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+
+        <activity android:name=".tutorial.Tutorial"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+        android:label="@string/title_activity_tutorial"
+                  android:screenOrientation="sensorLandscape">
+        </activity>
+        <activity
+                android:name=".logIn_register.LoginActivity"
+                android:label="@string/title_activity_login"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme">
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="sensorLandscape"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".Menu"
+                android:label="@string/app_name"
+                android:parentActivityName=".MainActivity"
+                android:screenOrientation="sensorLandscape"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".MainActivity"/>
+        </activity>
+        <activity
+                android:name=".Config"
+                android:label="@string/app_name"
+                android:parentActivityName=".Menu"
+                android:screenOrientation="sensorLandscape"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".Menu"/>
+        </activity>
+        <activity
+                android:name=".Stats"
+                android:label="@string/app_name"
+                android:parentActivityName=".Menu"
+                android:screenOrientation="sensorLandscape"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".Menu"/>
+        </activity>
+        <activity
+                android:name=".nivell.SelLvls"
+                android:label="@string/app_name"
+                android:parentActivityName=".Menu"
+                android:screenOrientation="sensorLandscape"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".Menu"/>
+        </activity>
+        <activity
+                android:name=".nivell.Nivell"
+                android:label="@string/app_name"
+                android:parentActivityName=".nivell.SelLvls"
+                android:screenOrientation="sensorLandscape"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".nivell.SelLvls"/>
+        </activity>
+        <activity
+                android:name=".nivell.Victoria"
+                android:label="@string/app_name"
+                android:parentActivityName=".nivell.SelLvls"
+                android:screenOrientation="sensorLandscape"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".nivell.SelLvls"/>
+        </activity>
+        <activity
+                android:name=".nivell.Derrota"
+                android:label="@string/app_name"
+                android:parentActivityName=".nivell.SelLvls"
+                android:screenOrientation="sensorLandscape"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".nivell.SelLvls"/>
+        </activity>
+        <activity
+                android:name=".logIn_register.RegisterActivity"
+                android:parentActivityName=".MainActivity"
+                android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

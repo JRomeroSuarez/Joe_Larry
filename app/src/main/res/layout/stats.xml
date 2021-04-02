@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@drawable/menu_sin_nada">
+
+    <TextView
+            android:text="@string/capturasExitosas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEscapes" android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/puntCapturas" app:layout_constraintHorizontal_bias="0.216"
+            android:textColor="@android:color/background_dark" android:layout_marginTop="100dp"
+            app:layout_constraintTop_toTopOf="parent" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/valorDefecto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/globalCapturas" android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="88dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtGlobal" android:textColor="@android:color/background_dark"
+            android:layout_marginTop="44dp" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puntCapturas" android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtPropio"
+            android:textColor="@android:color/background_dark" android:layout_marginEnd="204dp"
+            app:layout_constraintEnd_toStartOf="@+id/globalCapturas" android:text="@string/valorDefecto"
+            android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puntPuntuaciones" android:textSize="18sp"
+            android:textColor="@android:color/background_dark" android:layout_marginEnd="204dp"
+            app:layout_constraintEnd_toStartOf="@+id/globalPuntuaciones"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/puntQuesos"
+            android:text="@string/valorDefecto" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/PuntRealizada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPuntos2" android:textSize="18sp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/puntPuntuaciones" app:layout_constraintHorizontal_bias="0.297"
+            android:textColor="@android:color/background_dark" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtQuesos" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/valorDefecto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/globalPuntuaciones" android:textSize="18sp"
+            android:layout_marginEnd="88dp" app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintTop_toBottomOf="@+id/globalQuesos" android:layout_marginTop="20dp"
+            android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puntTiempo" android:textSize="18sp"
+            android:layout_marginEnd="204dp" app:layout_constraintEnd_toStartOf="@+id/globalTiempo"
+            android:textColor="@android:color/background_dark" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/puntPuntosMax" app:layout_constraintVertical_bias="0.100000024"
+            android:text="@string/valorDefecto" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puntPuntosMax" android:textSize="18sp"
+            android:layout_marginEnd="204dp"
+            app:layout_constraintEnd_toStartOf="@+id/globalPuntosMax"
+            android:textColor="@android:color/background_dark" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/puntPuntuaciones" android:text="@string/valorDefecto"
+            android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puntQuesos" android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/globalQuesos"
+            android:layout_marginEnd="204dp" android:textColor="@android:color/background_dark"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/puntEscapes"
+            android:text="@string/valorDefecto" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/capturas_fallidas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCapturasFallidas" android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/puntEscapes" app:layout_constraintHorizontal_bias="0.21"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/txtEscapes"
+            android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/quesosReco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtQuesos" android:textSize="18sp"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/puntQuesos"
+            app:layout_constraintHorizontal_bias="0.21" android:textColor="@android:color/background_dark"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/txtCapturasFallidas"
+            android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/puntosMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPuntosMax" android:textSize="18sp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/puntPuntosMax" app:layout_constraintHorizontal_bias="0.278"
+            android:textColor="@android:color/background_dark" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtPuntos2" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/TimePlayed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/puntTiempo" app:layout_constraintHorizontal_bias="0.224"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/txtPuntosMax"
+            app:layout_constraintVertical_bias="0.137" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/puntEscapes" android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/globalEscapes"
+            android:layout_marginEnd="204dp" android:textColor="@android:color/background_dark"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/puntCapturas"
+            android:text="@string/valorDefecto" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/puntuacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPropio"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:textSize="24sp" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/txtGlobal" app:layout_constraintHorizontal_bias="0.858"
+            android:textColor="@android:color/background_dark" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toTopOf="parent" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/ranking_global"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:id="@+id/txtGlobal" android:textSize="24sp" app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="24dp"
+            android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/valorDefecto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/globalEscapes" android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="88dp"
+            android:textColor="@android:color/background_dark"
+            app:layout_constraintTop_toBottomOf="@+id/globalCapturas" android:layout_marginTop="24dp"
+            android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/valorDefecto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/globalQuesos" android:layout_marginEnd="88dp" app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="18sp" android:textColor="@android:color/background_dark"
+            app:layout_constraintTop_toBottomOf="@+id/globalEscapes" android:layout_marginTop="20dp"
+            android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/valorDefecto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/globalPuntosMax" android:textSize="18sp"
+            android:layout_marginEnd="88dp" app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@android:color/background_dark" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/globalPuntuaciones" android:fontFamily="@font/shermlock"/>
+    <TextView
+            android:text="@string/valorDefecto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/globalTiempo" android:textSize="18sp"
+            android:layout_marginEnd="88dp" app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@android:color/background_dark" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/globalPuntosMax"
+            app:layout_constraintVertical_bias="0.100000024" android:fontFamily="@font/shermlock"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="250dp"
+              android:layout_height="250dp"
+              android:background="@color/amarillo"
+>
+
+    <TextView
+            android:text="@string/stringTextPausa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/permanent_marker"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"/>
+    <Button
+            android:text="@string/stringContinuar"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/permanent_marker"
+            android:textColor="@android:color/white"
+            android:background="@color/marron"
+            android:layout_height="wrap_content" android:id="@+id/btnContinuar"
+            android:layout_marginTop="15dp"/>
+    <Button
+            android:text="@string/stringBtnReiniciar"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/permanent_marker"
+            android:textColor="@android:color/white"
+            android:background="@color/marron"
+            android:layout_height="wrap_content" android:id="@+id/btnPausaReiniciar"
+            android:layout_marginTop="15dp"/>
+    <Button
+            android:text="@string/stringBtnVolverAlMenu"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/permanent_marker"
+            android:textColor="@android:color/white"
+            android:background="@color/marron"
+            android:layout_height="wrap_content" android:id="@+id/btnVolverMenu" android:layout_marginTop="15dp"/>
+
+</LinearLayout>

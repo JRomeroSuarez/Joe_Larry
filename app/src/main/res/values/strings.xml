@@ -1,0 +1,88 @@
+<resources>
+    <!---CONFIG-->
+    <string name="volSonido">Vol. Sonido</string>
+    <string name="volMusica">Vol. Música</string>
+    <string name="notificaciones">Notificaciones</string>
+
+    <!---DERROTA-->
+    <string name="btnRetry">Vuelve a intentar</string>
+    <string name="selLvl">Seleccionar nivel</string>
+    <string name="maxPuntuación">Máxima puntuación</string>
+    <string name="seHaEscapado">SE TE HA ESCAPADO</string>
+    <string name="valorDefecto">XXXX</string>
+
+    <!---VICTORIA-->
+    <string name="capturado">LO HAS CAPTURADO</string>
+    <string name="sigLvl">Siguiente nivel</string>
+
+    <!---MENU-->
+    <string name="btnJugar">JUGAR</string>
+    <string name="btnEstadisticas">ESTADISTICAS</string>
+
+    <!---NIVEL-->
+
+    <!---PAUSA-->
+
+    <!---ESTADISTICAS-->
+    <string name="capturasExitosas">Capturas exitosas</string>
+    <string name="capturas_fallidas">Capturas fallidas</string>
+    <string name="quesosReco">Queso recogidos</string>
+    <string name="PuntRealizada">Puntuaciones realizadas</string>
+    <string name="TimePlayed">Tiempo jugado</string>
+    <string name="ranking_global">Puntuaciones global</string>
+    <string name="puntosMax">Puntuaciones máximas</string>
+
+
+    <!---SELECCION DE NIVEL-->
+    <string name="app_name">Joe&amp;Lerry</string>
+    <string name="stringInfoSelLvl">Selecciona el nivel</string>
+    <string name="stringNivel1">Nivel 1: +</string>
+    <string name="stringNivel2">Nivel 2: -</string>
+    <string name="stringNivel3">Nivel 3: +/-</string>
+    <string name="stringNivel4">Nivel 4: x</string>
+    <string name="stringNivel5">Nivel 5: x/-</string>
+    <string name="stringNivel6">Nivel 6: x/+/-</string>
+    <string name="stringNivel7">Nivel 7: %</string>
+    <string name="stringNivel8">Nivel 8: %/x</string>
+    <string name="stringNivel9">Nivel 9: %/+/x/-</string>
+    <string name="stringTextPausa">Pausado</string>
+    <string name="stringContinuar">Continuar</string>
+    <string name="stringBtnReiniciar">Reiniciar</string>
+    <string name="stringBtnVolverAlMenu">Volver al menu</string>
+    <string name="title_activity_login">Login</string>
+    <string name="fraseVictoria">Lo hemos capturado, continuemos nuestra aventura!!!</string>
+    <string name="fraseEscape">Me he escapado!! Quieres volver a intentarlo?</string>
+    <string name="FraseTuto1">Hola! Ya sabes porque estás aquí, ¿no? Necesito tu ayuda, ¡se me ha colado un ratón en
+        casa! Larry siempre se mete donde no le llaman, ¡y todo por los quesos!. ¡Yo los odio así que ni me acerques a
+        ellos!
+    </string>
+    <string name="FraseTuto2">Como pronto verás, Larry es muy escurridizo pero juntos, ¡somos más listos! Espero que
+        sepas sumar, restar dividir y multiplicar porque si no, ¡será imposible! ¿Ves esos dos números de ahí arriba? El
+        resultado de la operación entre los dos nos da la pista para seguir a Larry. Por ejemplo, ¡si vemos este tres y
+        le sumamos un… cinco, claro! ¡Larry ira a por el queso número ocho!
+    </string>
+    <string name="FraseTuto3">Así que ya sabes, tienes que ser tan rápido con el dedo que con la cabeza. Ayúdame a darle
+        una lección a Larry, ¡confío en ti!
+
+    </string>
+
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="correo">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="logearse">Iniciar Sesión</string>
+    <string name="login">Inicio de sesión</string>
+    <string name="portada">Portada del juego</string>
+    <string name="name">Nombre</string>
+    <string name="lastName">Apellido</string>
+    <string name="registro">Registro</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="userConected">Usuario conectado:</string>
+    <string name="ratonDerrota">Raton Derrota</string>
+    <string name="bocadillo">bocadillo</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="LogOut">Cerrar sesión</string>
+    <string name="ratonespaldas">ratonEspaldas</string>
+    <string name="gatovictoria">gatoVictoria</string>
+    <string name="puntuacion">Tu puntuación</string>
+
+</resources>
